@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+/*
+ * 
+ */
+int main() {
+
+      int sayı,sonuc;
+    printf("sayı giriniz:");
+    scanf("%d",&sayı);
+    
+    if(sayı>=0)
+        printf("Girilen sayının mutlak değeri:%d",sayı);
+    else {
+        if(sayı<0){
+            sonuc=sayı*(-1);
+            printf("Girilen sayının mutlak değeri:%d",sonuc);
+        }
+    }
+}
